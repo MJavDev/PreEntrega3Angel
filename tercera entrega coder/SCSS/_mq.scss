@@ -1,0 +1,52 @@
+@media (max-width: 250px) {
+  .hero_imagen_principal {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .mapa {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  #copyright {
+    font-size: 1rem;
+  }
+
+  .hero-principal {
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .info_empresa {
+      font-size: 1.2rem;
+    }
+  }
+
+  .hero-inferior {
+    padding: 0 150px;
+    h2 {
+      font-size: 1.7rem;
+      padding: 0;
+    }
+  }
+
+  .hero-inferior-combinado {
+    h2 {
+      font-size: 1.7rem;
+      padding: 0;
+    }
+    .info_sector {
+      font-size: 1.2rem;
+      margin: 5px 30px;
+    }
+  }
+}

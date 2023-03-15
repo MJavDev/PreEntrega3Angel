@@ -1,0 +1,24 @@
+footer {
+  background-color: grayscale($color: #e7caca);
+  margin: 10px;
+  .icon {
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $text-color;
+      background-color: $bg-color;
+      width: 30px;
+      height: 30px;
+      margin: -8px;
+      border: 2px solid white;
+      border-radius: 50%;
+      transition: all 0.2s ease-in;
+    }
+  }
+  #copyright {
+    margin-top: 10px;
+    padding: 10px;
+    color: $text-color;
+  }
+}

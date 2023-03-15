@@ -1,0 +1,146 @@
+html body {
+  height: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  margin: 20px 10px;
+}
+
+.hero-principal {
+  padding: 10px;
+}
+.hero-principal h1 {
+  margin: 10px 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: "Play", sans-serif;
+}
+.hero-principal .info_empresa {
+  padding: 10px;
+  margin: 5px 10px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.hero-inferior-combinado {
+  padding: 0 10px;
+}
+.hero-inferior-combinado h2 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: "Play", sans-serif;
+}
+.hero-inferior-combinado h3 {
+  margin-block: 20px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: "Play", sans-serif;
+}
+.hero-inferior-combinado .info_sector {
+  padding: 10px;
+  margin: 5px 10px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.hero-inferior {
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+.hero-inferior h2 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 10px;
+  font-family: "Play", sans-serif;
+}
+
+#copyright {
+  font-size: 0.7rem;
+}
+
+.navbar {
+  padding: 10px;
+  margin: 0 10px;
+  color: white;
+  font-weight: 700;
+  background-color: white;
+}
+.navbar .navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #d9d9d9;
+  margin: 10px;
+}
+footer .icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  margin: -8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+footer #copyright {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 250px) {
+  .hero_imagen_principal {
+    display: none;
+  }
+}
+@media (max-width: 350px) {
+  .mapa {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media (min-width: 767px) {
+  #copyright {
+    font-size: 1rem;
+  }
+  .hero-principal h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .hero-principal .info_empresa {
+    font-size: 1.2rem;
+  }
+  .hero-inferior {
+    padding: 0 150px;
+  }
+  .hero-inferior h2 {
+    font-size: 1.7rem;
+    padding: 0;
+  }
+  .hero-inferior-combinado h2 {
+    font-size: 1.7rem;
+    padding: 0;
+  }
+  .hero-inferior-combinado .info_sector {
+    font-size: 1.2rem;
+    margin: 5px 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
