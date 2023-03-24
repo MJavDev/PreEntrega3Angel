@@ -1,0 +1,85 @@
+html {
+  body {
+    height: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+  }
+}
+main {
+  margin: 20px 10px;
+}
+.hero-principal {
+  padding: 10px;
+  h1 {
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: "Play", sans-serif;
+  }
+
+  .info_empresa {
+    padding: 10px;
+    margin: 5px 10px;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  .hero_imagen_principal {
+    animation: fadeIn 2s ease;
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        filter: blur(20px);
+      }
+
+      10% {
+        opacity: 1;
+        filter: brightness(2) blur(10px);
+      }
+    }
+  }
+}
+
+.hero-inferior-combinado {
+  padding: 0 10px;
+  h2 {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: "Play", sans-serif;
+  }
+
+  h3 {
+    margin-block: 20px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: "Play", sans-serif;
+  }
+
+  .info_sector {
+    padding: 10px;
+    margin: 5px 10px;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+}
+
+.hero-inferior {
+  padding: 0 40px;
+  margin-bottom: 20px;
+  h2 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 10px;
+    font-family: "Play", sans-serif;
+  }
+}
+
+#copyright {
+  font-size: 0.7rem;
+}
